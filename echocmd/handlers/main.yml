@@ -1,0 +1,5 @@
+---
+# handlers file for echocmd
+- name: Notify
+  debug:
+    msg: "The file is created or overwritten!"
