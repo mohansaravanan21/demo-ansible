@@ -1,2 +1,5 @@
 [local]
 localhost ansible_connection=local
+
+[ec2]
+ubuntu@51.21.200.53

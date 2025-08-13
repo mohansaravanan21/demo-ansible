@@ -1,5 +1,6 @@
 ---
 - name: Create File
-  hosts: local
+  hosts: ec2
+  become: true
   roles:
     - echocmd
